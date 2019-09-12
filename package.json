@@ -1,0 +1,38 @@
+{
+  "name": "heyRecipes",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "clarifai": "^2.9.0",
+    "firebase": "^5.9.3",
+    "lodash": "^4.17.11",
+    "react": "16.8.3",
+    "react-native": "0.59.3",
+    "react-native-camera": "^2.2.1",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-navigation": "^3.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.3",
+    "@babel/runtime": "7.4.3",
+    "babel-jest": "24.7.1",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
