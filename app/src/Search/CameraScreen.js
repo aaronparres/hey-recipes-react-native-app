@@ -14,7 +14,7 @@ import Clarifai from 'clarifai';
 import { RNCamera } from 'react-native-camera';
 
 const app = new Clarifai.App({
-    apiKey: '415157db6b814ad49f3d22b58e397271'
+    apiKey: ''
 });
 
 export default class CameraScreen extends React.Component {
