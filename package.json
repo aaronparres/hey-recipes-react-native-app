@@ -15,7 +15,7 @@
     "axios": "^0.18.1",
     "clarifai": "^2.9.0",
     "firebase": "^5.9.3",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "react": "16.8.3",
     "react-native": "0.59.3",
     "react-native-camera": "^2.2.1",
